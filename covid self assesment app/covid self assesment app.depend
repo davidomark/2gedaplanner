@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1644329039 source:c:\users\davidmark\desktop\my c++\covid self assesment app\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
+1645276136 source:c:\users\user\desktop\my c++\covid self assesment app\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

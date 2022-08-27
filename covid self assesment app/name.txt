@@ -1,0 +1,14 @@
+David MarkYou have 5 of these symptoms
+Questions and Answers
+Answer The Following Questions with a '1' for 'yes' and '0' for 'no' 
+Do you have fever?
+1
+Do you have cough?
+1
+Do you have loss of taste?
+1
+Do you have tiredness?
+1
+Do you have headache?
+1
+5

@@ -1,0 +1,18 @@
+sonlaar_desmond des
+Age:
+18
+City of residence: 
+accra
+
+Questions and Answers
+Answer The Following Questions with a '1' for 'yes' and '0' for 'no' 
+Do you have severe breathing?
+1
+Do you have severe chest pain?
+1
+Do you have a very have time waking up?
+0
+Do you have feelings of confusion?
+1
+Do you have loss of conciousness?
+0
