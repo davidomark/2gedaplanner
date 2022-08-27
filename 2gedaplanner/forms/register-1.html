@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Signup Form">
+    <meta name="author" content="David Mark">
+    <title>Signup Form | Wedding Planner</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vendors.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+
+	<div class="container-fluid p-0">
+	    <div class="row no-gutters row-height">
+	        <div class="col-lg-6 background-image" data-background="url(img/signup.jpg)">
+	            <div class="content-left-wrapper opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+	                <a href="#0" id="logo"><img src="img/logo.svg" alt="" width="46" height="40"></a>
+	                <div id="social">
+	                    <ul>
+	                        <li><a href="#0"><i class="social_facebook"></i></a></li>
+	                        <li><a href="#0"><i class="social_twitter"></i></a></li>
+	                        <li><a href="#0"><i class="social_instagram"></i></a></li>
+	                    </ul>
+	                </div>
+	                <!-- /social -->
+	                <div>
+	                    <h1>Register - Wedding Planner</h1>
+	                    <p>Register to begin your wedding planning.</p>
+	                    <a href="https://www.youtube.com/watch?v=3yQmBLeOc7A" class="btn_1 rounded pulse_bt plus_icon btn_play">Play Video Intro<i class="arrow_triangle-right"></i></a>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="col-lg-6 d-flex flex-column content-right">
+	            <div class="container my-auto py-5">
+	                <div class="row">
+	                    <div class="col-lg-9 col-xl-7 mx-auto">
+	                        <h4 class="mb-3">Sign Up</h4>
+							
+	                        <form class="input_style_1" action="php/register.php" method="post" enctype="multipart/form-data">
+								<div class="form-group">
+	                                <label for="first_name">First Name</label>
+	                                <input type="text" name="first_name" id="first_name" class="form-control" required>
+	                            </div>
+								<div class="form-group">
+	                                <label for="last_name">Last Name</label>
+	                                <input type="text" name="last_name" id="last_name" class="form-control" required>
+	                            </div>
+								<div class="form-group">
+	                                <label for="username">Username</label>
+	                                <input type="text" name="username" id="username" class="form-control" required>
+	                            </div>
+	                            <div class="form-group">
+	                                <label for="email_address">Email Address</label>
+	                                <input type="email" name="email_address" id="email_address" class="form-control" required>
+	                            </div>
+								<div class="form-group mb-4">
+								    <div class="info">
+								        <h6>Upload Image<a href="#0" data-toggle="tooltip" data-placement="top" title="<strong>Files accepted:<br></strong>gif,jpg,jpeg,png,pdf,doc,docx. Max file size: 150k for demo purpose." class="tooltip-1"><i class="icon_question_alt"></i></a></h6>
+								    </div>
+								    <div class="fileupload">
+								        <input type="file" name="my_image" accept="image/*">
+								    </div>
+								</div>
+	                            <div class="form-group">
+	                                <label for="password1">Password</label>
+	                                <input type="password" name="password1" id="password1" class="form-control" required>
+	                            </div>
+	                            <div class="form-group">
+	                                <label for="password2">Confirm Password</label>
+	                                <input type="password" name="password2" id="password2" class="form-control" required>
+	                            </div>
+	                            <div id="pass-info" class="clearfix"></div>
+	                                <div class="mb-4">
+	                                    <label class="container_check">I agree to the <a href="#" data-toggle="modal" data-target="#terms-txt">Terms and Privacy Policy</a>.
+	                                        <input type="checkbox" name="agree" id="agree" required>
+	                                        <span class="checkmark"></span>
+	                                    </label>
+	                                </div>
+	                            <button type="submit" name="submit" class="btn_1 full-width">Sign Up</button>
+	                        </form>
+	                        <p class="text-center mt-3 mb-0">Already have an account? <a href="login-1.html">Sign In</a></p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="container pb-3 copy">© 2022 Dave Animation Studio - All Rights Reserved.</div>
+	        </div>
+	    </div>
+	    <!-- /row -->
+	</div>
+	<!-- /container -->
+
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+	
+	<!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js"></script>
+	<script src="js/common_func.js"></script>
+
+	<!-- SPECIFIC SCRIPTS -->
+	<script src="js/pw_strenght.js"></script>	
+
+</body>
+</html>
